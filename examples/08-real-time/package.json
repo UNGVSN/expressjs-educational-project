@@ -1,0 +1,17 @@
+{
+  "name": "08-real-time",
+  "version": "1.0.0",
+  "description": "Real-time communication with Socket.io",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
