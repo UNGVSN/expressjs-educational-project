@@ -1,0 +1,20 @@
+{
+  "name": "09-error-handling",
+  "version": "1.0.0",
+  "description": "Step 9: Error Handling System - Express error handling patterns",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "example:basic": "node examples/01-basic-errors.js",
+    "example:custom": "node examples/02-custom-errors.js",
+    "example:async": "node examples/03-async-errors.js",
+    "example:production": "node examples/04-production.js"
+  },
+  "keywords": [
+    "express",
+    "error",
+    "handling",
+    "middleware",
+    "exceptions"
+  ]
+}

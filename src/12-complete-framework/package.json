@@ -1,0 +1,21 @@
+{
+  "name": "12-complete-framework",
+  "version": "1.0.0",
+  "description": "Step 12: Complete Mini-Express Framework - Bringing it all together",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "example:basic": "node examples/01-basic-app.js",
+    "example:api": "node examples/02-api-server.js",
+    "example:fullstack": "node examples/03-fullstack-app.js",
+    "example:compare": "node examples/04-express-comparison.js"
+  },
+  "keywords": [
+    "express",
+    "mini-framework",
+    "http",
+    "routing",
+    "middleware",
+    "educational"
+  ]
+}

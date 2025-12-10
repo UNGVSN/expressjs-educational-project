@@ -1,0 +1,21 @@
+{
+  "name": "02-request-response-enhancement",
+  "version": "1.0.0",
+  "description": "Step 02: Enhancing Request and Response objects with Express-like methods",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "example:basic": "node examples/01-enhanced-request.js",
+    "example:response": "node examples/02-enhanced-response.js",
+    "example:chaining": "node examples/03-method-chaining.js",
+    "example:content": "node examples/04-content-negotiation.js"
+  },
+  "keywords": [
+    "express",
+    "http",
+    "request",
+    "response",
+    "educational"
+  ],
+  "license": "MIT"
+}

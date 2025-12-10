@@ -1,0 +1,20 @@
+{
+  "name": "10-body-parsers",
+  "version": "1.0.0",
+  "description": "Step 10: Body Parsers - Express request body parsing",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "example:json": "node examples/01-json-parser.js",
+    "example:urlencoded": "node examples/02-urlencoded-parser.js",
+    "example:raw": "node examples/03-raw-parser.js",
+    "example:text": "node examples/04-text-parser.js"
+  },
+  "keywords": [
+    "express",
+    "body-parser",
+    "json",
+    "urlencoded",
+    "middleware"
+  ]
+}

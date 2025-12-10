@@ -1,0 +1,15 @@
+{
+  "name": "06-application-class",
+  "version": "1.0.0",
+  "description": "Step 06: The Application class - the complete Express app foundation",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "example:basic": "node examples/01-basic-app.js",
+    "example:settings": "node examples/02-app-settings.js",
+    "example:locals": "node examples/03-app-locals.js",
+    "example:engines": "node examples/04-template-engines.js"
+  },
+  "keywords": ["express", "application", "educational", "settings", "locals"],
+  "license": "MIT"
+}

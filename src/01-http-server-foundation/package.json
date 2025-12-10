@@ -1,0 +1,23 @@
+{
+  "name": "01-http-server-foundation",
+  "version": "1.0.0",
+  "description": "Step 01: Understanding Node.js HTTP server fundamentals",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "example:basic": "node examples/01-basic-server.js",
+    "example:methods": "node examples/02-handling-methods.js",
+    "example:urls": "node examples/03-parsing-urls.js",
+    "example:query": "node examples/04-query-strings.js",
+    "example:headers": "node examples/05-request-headers.js",
+    "example:response": "node examples/06-response-types.js",
+    "example:streaming": "node examples/07-streaming-response.js"
+  },
+  "keywords": [
+    "express",
+    "http",
+    "node",
+    "educational"
+  ],
+  "license": "MIT"
+}

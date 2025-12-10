@@ -1,0 +1,17 @@
+{
+  "name": "04-middleware-pipeline",
+  "version": "1.0.0",
+  "description": "Step 04: Understanding the middleware pipeline - the heart of Express.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "example:basic": "node examples/01-basic-middleware.js",
+    "example:next": "node examples/02-next-function.js",
+    "example:chain": "node examples/03-middleware-chain.js",
+    "example:timing": "node examples/04-timing-middleware.js",
+    "example:auth": "node examples/05-auth-middleware.js",
+    "example:error": "node examples/06-error-handling.js"
+  },
+  "keywords": ["express", "middleware", "educational", "pipeline", "next"],
+  "license": "MIT"
+}

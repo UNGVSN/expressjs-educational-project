@@ -1,0 +1,20 @@
+{
+  "name": "11-cookies-sessions",
+  "version": "1.0.0",
+  "description": "Step 11: Cookie & Session Support - HTTP cookies and session management",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "example:cookies": "node examples/01-basic-cookies.js",
+    "example:signed": "node examples/02-signed-cookies.js",
+    "example:sessions": "node examples/03-sessions.js",
+    "example:auth": "node examples/04-auth-example.js"
+  },
+  "keywords": [
+    "express",
+    "cookies",
+    "sessions",
+    "middleware",
+    "authentication"
+  ]
+}

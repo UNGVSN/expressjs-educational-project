@@ -1,0 +1,21 @@
+{
+  "name": "08-template-engines",
+  "version": "1.0.0",
+  "description": "Step 8: Template Engine Integration - Server-side rendering with views",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "example:basic": "node examples/01-basic-views.js",
+    "example:layouts": "node examples/02-layouts.js",
+    "example:partials": "node examples/03-partials.js",
+    "example:helpers": "node examples/04-helpers.js"
+  },
+  "keywords": [
+    "express",
+    "template",
+    "view",
+    "render",
+    "ejs",
+    "handlebars"
+  ]
+}

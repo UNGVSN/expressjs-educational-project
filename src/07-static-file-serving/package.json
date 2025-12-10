@@ -1,0 +1,20 @@
+{
+  "name": "07-static-file-serving",
+  "version": "1.0.0",
+  "description": "Step 7: Static File Serving - express.static() middleware",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "example:basic": "node examples/01-basic-static.js",
+    "example:options": "node examples/02-static-options.js",
+    "example:multiple": "node examples/03-multiple-roots.js",
+    "example:spa": "node examples/04-spa-fallback.js"
+  },
+  "keywords": [
+    "express",
+    "static",
+    "middleware",
+    "files",
+    "serve-static"
+  ]
+}

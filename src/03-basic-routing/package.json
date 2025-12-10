@@ -1,0 +1,20 @@
+{
+  "name": "03-basic-routing",
+  "version": "1.0.0",
+  "description": "Step 03: Implementing Express-like routing with path matching and parameters",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "example:basic": "node examples/01-basic-routes.js",
+    "example:params": "node examples/02-route-params.js",
+    "example:methods": "node examples/03-http-methods.js",
+    "example:patterns": "node examples/04-route-patterns.js"
+  },
+  "keywords": [
+    "express",
+    "routing",
+    "http",
+    "educational"
+  ],
+  "license": "MIT"
+}
